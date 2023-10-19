@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    box-shadow: 0px 3px 5px gray;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.firstH{
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 60vw;
+    margin-left: 2vw;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 30px;
+}
+nav{
+    height: 50px;
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px red solid; */
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    border-bottom: 2px solid orange;
+}
+
+.secundH{
+    display: flex;
+    width: 40vw;
+    align-items:center;
+    justify-content:space-around;
+    margin-left: 5vw;
+    /* border: 1px red solid; */
+
+}
+.secundH div{
+    display: flex;
+    align-items: center;
+}
+.secundH div > a,.secundH a{
+    text-decoration: none;
+}
+.secundH a:hover{
+    border-bottom: 2px solid orange;
+}
+.secundH div > a:hover{
+    border-bottom: 2px solid orange;
+}
+
+.secundH i{
+    margin-right:10px;
+}
+
+
+/* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY */
+/* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY */
+
+main{
+    display: flex;
+}
+.adNewsLast{
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 50%;
+    height: 100%;
+}
+.newslast{
+    /* border: 1px blue solid; */
+    padding: 30px;
+    border-radius: 50px;
+}
+
+
+.img{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 500px;
+}
+
+.img img{
+    /* border: 1px red solid; */
+    height: 120%;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.carousel{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel h1{
+    width: 500px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 5px black solid;
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+}
+.brands img{
+    width: 10%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}

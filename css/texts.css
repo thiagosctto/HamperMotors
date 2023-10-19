@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Caveat&family=Gabarito&display=swap');
+
+header{
+    font-family: 'Bruno Ace SC', cursive;
+    color: black;
+}
+
+.control{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.title {
+    height: 10px;
+    font-size: 50px;
+}
+.p1{
+    color: orange;
+    text-decoration: none;
+}
+.p2{
+    color: black;
+    text-decoration: none;
+}
+.mainlyh1{
+   font-family: 'Bruno Ace SC', cursive;
+   font-size: 50px;
+}
+
+.subMainly{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 30px;
+}
+
+.newslast{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 20px;
+    
+}
+
+.carousel h1{
+    font-family: 'Bruno Ace SC', cursive;
+}
